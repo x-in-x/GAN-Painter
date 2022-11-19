@@ -4,7 +4,9 @@ This is inspired by an ML Kaggle competition entitled *I'm Something of a Painte
 
 Summary of notebooks:
 
-**[GAN-Painter].Preprocessing** - Loading Monet and photo data and converting it to training and testing sets.  Theoretically we don't need a testing set for a GAN; however, we have selected one here for potential related model testing.
+**[GAN-Painter].Preprocessing** - Loading Monet and photo data and converting it to training and testing sets.  Theoretically we don't need a testing set for a GAN; however, we have selected one here for potential related model testing.<br>
+(Note: *remaining notebooks are assumed to share kernel with Preprocessing*)
 
 **[GAN-Painter].GAN-blend** - Construction and training of the GAN model.  This one gives the generator a kickstart with blended photos, and then feeds it through the hidden-layered generator.  
 
+**[GAN-Painter].Autoencoder** - A simple autoencoder for Monet images.
