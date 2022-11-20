@@ -9,4 +9,6 @@ Summary of notebooks:
 
 **[GAN-Painter].GAN-blend** - Construction and training of the GAN model.  This one gives the generator a kickstart with blended photos, and then feeds it through the hidden-layered generator.  
 
+**[GAN-Painter].GAN-noise** - (coming soon)  Construction and training of GAN model starting from scratch (i.e. random noise).  This one will not employ the real photo set.
+
 **[GAN-Painter].Autoencoder** - A simple autoencoder for Monet images.
